@@ -156,6 +156,8 @@ const mySchema = {
 />
 ```
 
+For further documentation on writing your form schemas, please read the [JSON Forms Specification](https://github.com/DeloitteDigitalAPAC/json-forms-specification).
+
 ## How do I ...
 
 ### Customise the rendering of my form?

@@ -1,6 +1,6 @@
 {
   "name": "schematik-forms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Schematik Forms is an elegant form builder for React.",
   "main": "./lib/index.js",
   "author": "Deloitte Digital Australia (http://deloittedigital.com.au)",

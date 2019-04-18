@@ -1,10 +1,10 @@
 ![Deloitte Digital](https://raw.githubusercontent.com/DeloitteDigitalAPAC/react-habitat/master/dd-logo.png)
 
-# Schematick Forms
+# Schematik Forms
 
-Schematick Forms is an elegant form builder for React. It uses schema based configuration (see [JSON Forms Specification](https://github.com/DeloitteDigitalAPAC/json-forms-specification)) to render forms consistently with little effort.
+Schematik Forms is an elegant form builder for React. It uses schema based configuration (see [JSON Forms Specification](https://github.com/DeloitteDigitalAPAC/json-forms-specification)) to render forms consistently with little effort.
 
-This library is a relatively thin wrapper around the [Formik](https://github.com/jaredpalmer/formik) library. Schematic forms will orchestrate the automatation of building forms via the
+This library is a relatively thin wrapper around the [Formik](https://github.com/jaredpalmer/formik) library. Schematik forms will orchestrate the automatation of building forms via the
 schema based JSON.
 
 ## Features
@@ -18,12 +18,12 @@ schema based JSON.
 
 ## Installation
 
-`yarn add schematik-forms` or `npm install schematik-forms --save`
+`yarn add schematik-forms` or `npm i schematik-forms --save`
 
 You will also need to install the following **peer dependecies** if you havnt already:
 
-- `yarn add formik@1` or `npm install --save formik@1`
-- `yarn add react@16` or `npm install --save react@16`
+- `yarn add formik@1` or `npm i --save formik@1`
+- `yarn add react@16` or `npm i --save react@16`
 
 ## Table of contents
 

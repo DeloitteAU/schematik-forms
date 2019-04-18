@@ -1,0 +1,25 @@
+{
+  "name": "preview",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@deloitte-digital-au/babel-preset-app-react": "^0.0.7",
+    "@deloitte-digital-au/webpack-config-react": "^0.0.7",
+    "connect-history-api-fallback": "^1.5.0",
+    "koa-connect": "^2.0.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "formik": "^0.11.11",
+    "normalize.css": "^8.0.0",
+    "react": "^16.4.1",
+    "react-ace": "^6.1.4",
+    "react-dom": "^16.4.1",
+    "react-modal": "^3.5.1",
+    "rhythm-form-react": "git+ssh://git@dvcs.deloittedigital.com.au:22/rthm/rhythm-form-react.git#d3aa5a7c81632"
+  },
+  "scripts": {
+    "start": "webpack-serve --config webpack.config.js --open"
+  }
+}

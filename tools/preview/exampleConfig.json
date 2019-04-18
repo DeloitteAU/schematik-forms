@@ -1,0 +1,253 @@
+{
+    "version": 0,
+	"id": "testForm",
+    "fields": [
+        {
+            "id": "exampleText",
+            "type": "text",
+            "path": "textValue",
+            "required": true,
+            "errorSummaryLabel": "Example text field",
+            "data": {
+                "width": "m",
+                "label": {
+                    "type": "richtext",
+                    "content": "Example <b>text</b> field"
+                },
+                "labelHelpText": {
+                    "type": "text",
+                    "content": "Should be a password input with max length of 4"
+                },
+                "helpText": {
+                    "type": "richtext",
+                    "content": "Field help text <ul><li>supports</li><li>rich</li><li>text</li></ul>"
+                },
+                "tooltip": {
+                    "type": "richtext",
+                    "content": "<b>Rich</b> text"
+                },
+                "inputAttrs": {
+                    "type": "password",
+                    "placeholder": "Start typing",
+                    "maxLength": 4
+                }
+            }
+        },
+        {
+            "id": "exampleTextarea",
+            "type": "textarea",
+            "path": "textareaValue",
+            "required": true,
+            "errorSummaryLabel": "Example textarea field",
+            "data": {
+                "width": "l",
+                "label": {
+                    "type": "richtext",
+                    "content": "Example <b>textarea</b> field"
+                },
+                "labelHelpText": {
+                    "type": "text",
+                    "content": "Some help text"
+                },
+                "helpText": {
+                    "type": "richtext",
+                    "content": "Field help text <ul><li>supports</li><li>rich</li><li>text</li></ul>"
+                },
+                "tooltip": {
+                    "type": "richtext",
+                    "content": "<b>Rich</b> text"
+                },
+                "inputAttrs": {
+                    "maxLength": 100
+                }
+            }
+        },
+        {
+            "id": "exampleSelect",
+            "type": "select",
+            "path": "selectValue",
+            "required": true,
+            "errorSummaryLabel": "Example select field",
+            "data": {
+                "width": "l",
+                "options": [
+                    {
+                        "label": "Please select",
+                        "value": "",
+                        "disabled": true
+                    },
+                    {
+                        "label": "Option A",
+                        "value": "a"
+                    },
+                    {
+                        "label": "Option B",
+                        "value": "b"
+                    },
+                    {
+                        "label": "Option C",
+                        "value": "c"
+                    },
+                    {
+                        "label": "Option D",
+                        "value": "d"
+                    },
+                    {
+                        "label": "Option E",
+                        "value": "e"
+                    }
+                ],
+                "label": {
+                    "type": "richtext",
+                    "content": "Example <b>select</b> field"
+                },
+                "labelHelpText": {
+                    "type": "text",
+                    "content": "Some help text"
+                },
+                "helpText": {
+                    "type": "richtext",
+                    "content": "Field help text <ul><li>supports</li><li>rich</li><li>text</li></ul>"
+                },
+                "tooltip": {
+                    "type": "richtext",
+                    "content": "<b>Rich</b> text"
+                }
+            }
+        },
+        {
+            "id": "exampleRadioGroup",
+            "type": "radio-group",
+            "path": "radioGroup",
+            "required": true,
+            "errorSummaryLabel": "Example radio-group field",
+            "data": {
+                "width": "l",
+                "options": [
+                    {
+                        "id": "a",
+                        "label": "Option A",
+                        "value": "a"
+                    },
+                    {
+                        "id": "b",
+                        "label": "Option B",
+                        "value": "b",
+                        "tooltip": "The letter B"
+                    },
+                    {
+                        "id": "c",
+                        "label": "Option C",
+                        "value": "c"
+                    },
+                    {
+                        "id": "d",
+                        "label": "Option D",
+                        "value": "d",
+                        "disabled": true
+                    },
+                    {
+                        "id": "e",
+                        "label": "Option E",
+                        "value": "e"
+                    }
+                ],
+                "label": {
+                    "type": "richtext",
+                    "content": "Example <b>radio-group</b> field"
+                },
+                "labelHelpText": {
+                    "type": "text",
+                    "content": "Some help text"
+                },
+                "helpText": {
+                    "type": "richtext",
+                    "content": "Field help text <ul><li>supports</li><li>rich</li><li>text</li></ul>"
+                },
+                "tooltip": {
+                    "type": "richtext",
+                    "content": "<b>Rich</b> text"
+                }
+            }
+        },
+        {
+            "id": "exampleCheckboxGroup",
+            "type": "checkbox-group",
+            "path": "checkboxGroup",
+            "errorSummaryLabel": "Example checkbox-group field",
+            "data": {
+                "width": "l",
+                "options": [
+                    {
+                        "id": "a",
+                        "label": "Option A",
+                        "value": "a"
+                    },
+                    {
+                        "id": "b",
+                        "label": "Option B",
+                        "value": "b",
+                        "tooltip": "The letter B"
+                    },
+                    {
+                        "id": "c",
+                        "label": "Option C",
+                        "value": "c"
+                    },
+                    {
+                        "id": "d",
+                        "label": "Option D",
+                        "value": "d",
+                        "disabled": true
+                    },
+                    {
+                        "id": "e",
+                        "label": "Option E",
+                        "value": "e"
+                    }
+                ],
+                "label": {
+                    "type": "richtext",
+                    "content": "Example <b>checkbox-group</b> field"
+                },
+                "labelHelpText": {
+                    "type": "text",
+                    "content": "Some help text"
+                },
+                "helpText": {
+                    "type": "richtext",
+                    "content": "Field help text <ul><li>supports</li><li>rich</li><li>text</li></ul>"
+                },
+                "tooltip": {
+                    "type": "richtext",
+                    "content": "<b>Rich</b> text"
+                }
+            }
+		},
+		{
+            "id": "exampleCheckbox",
+            "type": "checkbox",
+            "path": "checkbox",
+            "required": true,
+            "errorSummaryLabel": "Example checkbox field",
+            "data": {
+                "label": {
+                    "type": "richtext",
+                    "content": "Example <b>checkbox-group</b> field"
+                },
+                "labelHelpText": {
+                    "type": "text",
+                    "content": "Some help text"
+                },
+                "helpText": {
+                    "type": "richtext",
+                    "content": "Field help text <ul><li>supports</li><li>rich</li><li>text</li></ul>"
+                },
+                "tooltip": {
+                    "type": "richtext",
+                    "content": "<b>Rich</b> text"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+{
+	"presets": ["@deloitte-digital-au/babel-preset-app-react"],
+	"plugins": ["@babel/plugin-transform-for-of"]
+}

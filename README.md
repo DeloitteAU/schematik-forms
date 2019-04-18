@@ -16,6 +16,15 @@ schema based JSON.
 - You register the components that will render each field. (BYO form components, compatible with all react ui/form component libraries)
 - You register the validation rules that your form will use
 
+## Installation
+
+`yarn add schematik-forms` or `npm install schematik-forms --save`
+
+You will also need to install the following **peer dependecies** if you havnt already:
+
+- `yarn add formik@1` or `npm install --save formik@1`
+- `yarn add react@16` or `npm install --save react@16`
+
 ## Table of contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -83,16 +92,9 @@ schema based JSON.
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Installation
-
-`yarn add schematik-forms` or `npm install schematik-forms --save`
-
-You will also need to install the following **peer dependecies** if you havnt already:
-
-- `yarn add formik@1` or `npm install --save formik@1`
-- `yarn add react@16` or `npm install --save react@16`
-
 ## Getting started
+
+> Note we follow the [JSON Forms Specification](https://github.com/DeloitteDigitalAPAC/json-forms-specification) for full schema documentation.
 
 The code below will render a simple login form:
 
@@ -103,7 +105,7 @@ import FormBuilder from 'json-form-builder-react/lib';
 import {MyTextComponent, MyPasswordComponent} from '../my-components'; 
 
 // This config would ideally come from your backend system.
-const myConfig = {
+const mySchema = {
 	"version": 0,
 	"id": "loginForm",
 	"fields": [
@@ -127,7 +129,7 @@ const myConfig = {
 }
 
 <FormBuilder 
-	config={myConfig}
+	config={mySchema}
 	renderButtons={() => (<button type="submit">Log in</button>)}}
 	registeredComponents={{
 		text: {

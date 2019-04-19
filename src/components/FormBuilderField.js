@@ -48,6 +48,10 @@ export default class FormBuilderField extends React.Component {
 		onTriggerCallback: PropTypes.func.isRequired,
 
 		pathsToTreeMap: PropTypes.object.isRequired,
+
+		runAction: PropTypes.func.isRequired,
+
+		context: PropTypes.object.isRequired,
 	};
 
 	static defaultProps = {
@@ -101,7 +105,7 @@ export default class FormBuilderField extends React.Component {
 		// If we are safe to remove the value: set the field as untouched and reset back
 		// to the fields defaultValue.
 		if (!isPathShown) {
-			let defaultValue
+			let defaultValue;
 
 			if (typeof this.props.config.defaultValue !== 'undefined') {
 				defaultValue = this.props.config.defaultValue;
@@ -169,7 +173,7 @@ export default class FormBuilderField extends React.Component {
 			fieldExternalErrors = [fieldExternalErrors];
 		}
 
-		const dependsOnOtherFields = this.props.registeredComponents[this.props.config.type].dependsOnOtherFields
+		const dependsOnOtherFields = this.props.registeredComponents[this.props.config.type].dependsOnOtherFields;
 
 		const shouldOptimise = !dependsOnOtherFields && (!config || !config.fields || !config.fields.length);
 

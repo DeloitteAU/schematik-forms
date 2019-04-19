@@ -14,7 +14,7 @@ const renderTextNode = (node, WrappingTag = 'div', context = {}) => {
 	let content;
 
 	if (node && node.content) {
-		content = node.content
+		content = node.content;
 	}
 
 	if (node && node.contentPath) {

@@ -99,7 +99,7 @@ You will also need to install the following **peer dependecies** if you havnt al
 The code below will render a simple login form:
 
 ```js
-import FormBuilder from 'json-form-builder-react/lib';
+import FormBuilder from 'schematik-forms/lib';
 
 // BYO components
 import {MyTextComponent, MyPasswordComponent} from '../my-components'; 
@@ -126,7 +126,7 @@ const mySchema = {
 			}
 		}
 	]
-}
+};
 
 <FormBuilder 
 	config={mySchema}
@@ -241,7 +241,7 @@ const components = {
 			// Use props to build your component
 		}
 	}
-}
+};
 
 <FormBuilder 
 	registeredComponents={components}
@@ -295,7 +295,7 @@ const actions = {
 	// Set a value in the form
 	setFieldValue('name.first', 'John');
 	},
-}
+};
 
 <FormBuilder 
 	registeredActions={actions}

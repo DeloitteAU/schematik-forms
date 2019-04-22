@@ -1,6 +1,9 @@
 # We favour yarn here
 package-lock.json
 
+# Lets ignore the cypress videos
+videos
+
 # Numerous always-ignore extensions
 *.diff
 *.err

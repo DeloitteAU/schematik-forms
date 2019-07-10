@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = createConfig({
 	entry: {
 		main: [
-			'babel-polyfill',
+			'core-js',
 			'./index.js',
 		],
 	},

@@ -6,7 +6,7 @@ const convert = require('koa-connect');
 
 config.entry = {
 	main: [
-		'babel-polyfill',
+		'core-js',
 		'./index.js',
 	],
 };

@@ -5,6 +5,9 @@
   "main": "./lib/index.js",
   "author": "Deloitte Digital Australia (http://deloittedigital.com.au)",
   "license": "BSD-3-Clause",
+  "engines": {
+    "node": "^11.15.0"
+  },
   "scripts": {
     "clean": "rimraf lib && rimraf dist",
     "start": "cross-env NODE_ENV=development webpack-dev-server --open",

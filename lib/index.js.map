@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.js"],"names":["FormBuilder","iterateFields"],"mappings":"AAAA,OAAOA,WAAP,MAAwB,eAAxB;AACA,SAAQC,aAAR,QAA4B,SAA5B;AAEA,SACCA,aADD;AAIA,eAAeD,WAAf","sourcesContent":["import FormBuilder from './FormBuilder';\nimport {iterateFields} from './utils';\n\nexport {\n\titerateFields,\n};\n\nexport default FormBuilder;\n"],"file":"index.js"}

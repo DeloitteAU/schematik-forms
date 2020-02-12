@@ -26,8 +26,6 @@ publish
 node_modules
 tmp
 reports
-lib
-lib
 dist
 coverage
 

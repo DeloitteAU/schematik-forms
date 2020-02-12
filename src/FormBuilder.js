@@ -222,6 +222,7 @@ export default class FormBuilder extends React.Component {
 				submitForm: () => {
 					this.formikRef.submitForm();
 				},
+				setFieldError: this.formikRef.setFieldError,
 			});
 		}
 	}

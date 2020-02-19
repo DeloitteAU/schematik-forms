@@ -638,6 +638,10 @@ A function you can call to update a field's value in the form.
 
 A function you can call to trigger an `onActionCallback` on the FormBuilder component.
 
+### setFieldError: (fieldPath, errorMessage: string[]) => void
+
+A function you call to set a field error on the field.
+
 
 ## Want to contribute?
 

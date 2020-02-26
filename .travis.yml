@@ -5,7 +5,10 @@ node_js:
   - 11
 dist: xenial
 services:
-  - xvfb  
+  - xvfb
+cache:
+  directories:
+    - /home/travis/.cache/Cypress  
 addons:
   firefox: "49.0"
 script: yarn test

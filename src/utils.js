@@ -1,7 +1,13 @@
 import cloneDeep from 'lodash.clonedeep';
 import {setIn} from 'formik';
-import unset from 'lodash.unset';
 import {getComputedProperties} from './rules';
+
+const unset = (obj, path) => {
+	const keys = typeof path === 'string' ? path.split('.') : path;
+	const last = keys.pop();
+	const parent = keys.reduce((o, k) => (o && typeof o === 'object' ? o[k] : undefined), obj);
+	if (parent && typeof parent === 'object') delete parent[last];
+};
 
 export const getComponent = (registeredComponents, componentName) => {
 	if (!registeredComponents || !registeredComponents[componentName] || !registeredComponents[componentName].component) {

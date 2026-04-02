@@ -44,8 +44,7 @@
     "webpack": "4"
   },
   "dependencies": {
-    "lodash.clonedeep": "^4.5.0",
-    "lodash.unset": "^4.5.2"
+    "lodash.clonedeep": "^4.5.0"
   },
   "peerDependencies": {
     "formik": ">=1.0.2 <2.0.0",
